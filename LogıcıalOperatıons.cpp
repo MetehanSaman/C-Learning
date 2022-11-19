@@ -28,3 +28,4 @@ int main() {
 		cout << "Sayilardan birisi negatiftir.";
 	}
 }
+//Metehan Saman
