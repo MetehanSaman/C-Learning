@@ -10,12 +10,15 @@ int main() {
 	do {
 		cout << "Sifreyi Giriniz: ";
 		cin >> sifre2;
+		if (sifre2 != sifre1 and trynumber < 3) {
+			cout << "Yanlis parola girdiniz" << endl;
+		}
 		trynumber++;
 	} while (sifre2 != sifre1 and trynumber <= 3);
 
-	if (trynumber > 3 ) 
+	if (trynumber > 4 ) 
 	{
-		cout << "Cok Fazla Deneme Yaptiniz";
+		cout << "Cok Fazla Hatali Deneme Yaptiniz";
 	}
 	else
 	{
